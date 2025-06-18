@@ -8,14 +8,14 @@ import {
 } from "react-native";
 import { styles } from "../styles/styles";
 
-export default function Sobre() {
+export default function Erro() {
   return (
     <ImageBackground
       style={styles.container}
       source={require("../imagem/2.jpg")}
     >
       <View style={styles.container}>
-        <Text>Login feito com sucesso!</Text>
+        <Text style={{ color: "white" }}>Erro no login!</Text>
       </View>
     </ImageBackground>
   );
