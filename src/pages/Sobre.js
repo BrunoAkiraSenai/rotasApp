@@ -15,7 +15,7 @@ export default function Sobre() {
       source={require("../imagem/2.jpg")}
     >
       <View style={styles.container}>
-        <Text>Login feito com sucesso!</Text>
+        <Text style={{ color: "white" }}>Login feito com sucesso!</Text>
       </View>
     </ImageBackground>
   );
